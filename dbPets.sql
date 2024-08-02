@@ -19,8 +19,10 @@ nome varchar(100) not null,
 email varchar(100),
 telCel char(10),
 cpf char(14),
+primary key(codFunc)
 );
 -- visualizando tabelas
 show tables;
 -- visualizando a estrutura das tabelas
 desc tbUsuarios;
+desc tbFuncionarios;
